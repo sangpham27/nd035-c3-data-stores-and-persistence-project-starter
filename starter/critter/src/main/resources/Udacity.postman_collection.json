@@ -170,7 +170,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8082/user/employee/2",
+					"raw": "http://localhost:8082/user/employee/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -179,7 +179,7 @@
 					"path": [
 						"user",
 						"employee",
-						"2"
+						"1"
 					]
 				}
 			},
@@ -209,7 +209,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8082/schedule/pet/3",
+					"raw": "http://localhost:8082/schedule/pet/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -218,7 +218,7 @@
 					"path": [
 						"schedule",
 						"pet",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -248,7 +248,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8082/schedule/employee/2",
+					"raw": "http://localhost:8082/schedule/employee/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -257,7 +257,7 @@
 					"path": [
 						"schedule",
 						"employee",
-						"2"
+						"1"
 					]
 				}
 			},
@@ -401,7 +401,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8082/pet/3",
+					"raw": "http://localhost:8082/pet/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -409,7 +409,7 @@
 					"port": "8082",
 					"path": [
 						"pet",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -478,7 +478,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8082/user/customer/pet/3",
+					"raw": "http://localhost:8082/user/customer/pet/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -488,7 +488,7 @@
 						"user",
 						"customer",
 						"pet",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -500,7 +500,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "localhost:8082/user/employee/2",
+					"raw": "localhost:8082/user/employee/1",
 					"host": [
 						"localhost"
 					],
@@ -508,7 +508,7 @@
 					"path": [
 						"user",
 						"employee",
-						"2"
+						"1"
 					]
 				}
 			},
@@ -521,7 +521,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"employeeIds\": [2],\n    \"petIds\": [3],\n    \"date\": \"2020-08-02\",\n    \"activities\": [\"FEEDING\", \"PETTING\"]\n}",
+					"raw": "{\n    \"employeeIds\": [1],\n    \"petIds\": [1],\n    \"date\": \"2020-08-02\",\n    \"activities\": [\"FEEDING\", \"PETTING\"]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
